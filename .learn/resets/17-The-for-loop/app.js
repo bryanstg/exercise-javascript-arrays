@@ -4,5 +4,6 @@ let averageValue = 0;
 for (var index in myArray){
     averageValue += myArray[index]
 }
+
 averageValue = averageValue / myArray.length;
 console.log(averageValue);
